@@ -1,0 +1,50 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "breadcrumbs.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "cpp": false,
+    "javascript": true,
+    "python": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.lineNumbers": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.codeActionWidget.includeNearbyQuickFixes": false,
+  "inlineChat.acceptedOrDiscardBeforeSave": false,
+  "inlineChat.holdToSpeech": false,
+  "inlineChat.accessibleDiffView": "off",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#135564",
+    "editorBracketMatch.background": "#135564",
+    "editorBracketMatch.border": "#273338"
+  },
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "editor.codeActionsOnSave": {},
+  "editor.snippets.codeActions.enabled": false,
+  "C_Cpp.doxygen.generateOnType": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "terminal.integrated.fontFamily": "Consolas",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
